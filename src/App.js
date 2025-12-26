@@ -1,7 +1,7 @@
 import MovieCard from "./Components/MovieCard";
 function App() {
   const moviedetails = {
-    poster: "https://m.media-amazon.com/images/I/51oD2V6gYdL._AC_SY445_.jpg",
+    poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgwOnfqLW2-EbN789Cp3uVx2Ay4BZ3k7J9FA&s",
     title: "Inception",
     releaseyear: "2010",
     rating: "8.8/10",
