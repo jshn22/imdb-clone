@@ -1,6 +1,8 @@
-import { useState } from "react";
+import { Link } from "react-router-dom";
 function MovieCard({poster, title, releaseyear, rating, }){
     return(
+        <>
+        <Link to="/" className="inline-block mb-4 text-blue-600 hover:underline">Back to Home</Link>
         <div className="w-60 bg-white shadow-lg rounded-lg overflow-hidden">
             <img src={poster} alt={title} className="w-full h-80 object-cover"/>
             <div className="p-4">
@@ -9,6 +11,7 @@ function MovieCard({poster, title, releaseyear, rating, }){
                 <p className="text-yellow-500 font-semibold">Rating: {rating}</p>
             </div>
         </div>
+        </>
     )
 }
 export default MovieCard;
